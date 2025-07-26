@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marble Clock | BETHEL STONES </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background-color: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h2 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .wrapper {
+      max-width: 960px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .image-box {
+      flex: 1 1 40%;
+      text-align: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      width: 350px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-box {
+      flex: 1 1 50%;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+      color: #1f2937;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: 600;
+      color: #10b981;
+      margin: 10px 0 20px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      color: #4b5563;
+    }
+
+    ul.features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    ul.features li {
+      margin-bottom: 10px;
+      padding-left: 24px;
+      position: relative;
+      font-size: 15px;
+      color: #374151;
+    }
+
+    ul.features li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #10b981;
+      font-weight: bold;
+    }
+
+    .contact-button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 12px 28px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .contact-button:hover {
+      background-color: #2563eb;
+    }
+
+    footer {
+      background-color: #1f2937;
+      color: #d1d5db;
+      text-align: center;
+      padding: 24px 10px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    footer p, footer a {
+      margin: 6px 0;
+      color: #d1d5db;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .image-box, .content-box {
+        flex: 1 1 100%;
+        text-align: center;
+      }
+
+      .content-box {
+        padding-top: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      header h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Shop Header -->
+  <header>
+    <h2>BETHEL STONES</h2>
+  </header>
+
+  <!-- Main Product Section -->
+  <div class="wrapper">
+    <div class="image-box">
+      <img src="https://artsshala.com/cdn/shop/files/DSC07725_7adcf285-7cc6-4bf2-b61c-c38cc0d15902.jpg?v=1738147008&width=1946" alt="Marble Clock">
+    </div>
+    <div class="content-box">
+      <h1>Marble Clock</h1>
+      <div class="price">₹999</div>
+      <p class="description">
+        Add a touch of sophistication to your space with this beautifully crafted marble clock.
+        Made from premium quality natural marble, it combines timeless elegance with modern minimalism.
+        A perfect addition to your home, office desk, or gift collection.
+      </p>
+
+      <ul class="features">
+        <li>Elegant Look: Adds luxury to any space</li>
+        <li>Durable: Long-lasting natural stone</li>
+        <li>Easy to Clean: Just wipe and shine</li>
+        <li>Great Gift: Perfect for any occasion</li>
+        <li>Decor + Function: Stylish and useful</li>
+        <li>Eco-Friendly: Made from natural materials</li>
+      </ul>
+
+      <a class="contact-button" href="https://wa.me/919884828642" target="_blank">Contact on WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Bethel Stones</strong></p>
+    <p>135, Lakshmi Nagar, Mudichur, Chennai, Mudichur Rd, Tamil Nadu 600048</p>
+    <p>Phone: <a href="tel:+919884828642">98848 28642</a></p>
+    <p><a href="https://www.google.com/maps/dir/Sriperumbudur+%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%82%E0%AE%B0/135,+Lakshmi+Nagar,+Mudichur,+Chennai,+Mudichur+Rd,+Chennai,+Tamil+Nadu+600048/@12.9067097,79.9844861,12z/data=!4m13!4m12!1m5!1m1!1s0x3a52f2c66c981c67:0x2e697ce6d307cfbe!2m2!1d79.9452748!2d12.9624975!1m5!1m1!1s0x3a52f5c5a8f60037:0x789d946bb6d242bd!2m2!1d80.066888!2d12.9067226?entry=ttu" target="_blank">📍 Find us on Google Maps</a></p>
+  </footer>
+
+</body>
+</html>
